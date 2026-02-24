@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store
+
+# generated outputs
+*.csv
+!data/*.csv
+# generated outputs
+health_scored*.csv
+rank_stability*.csv
