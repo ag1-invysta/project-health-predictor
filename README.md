@@ -141,6 +141,20 @@ In the sidebar, set “Path to scored CSV” to:
     HealthScore =( 1 − WeightedBadness) × 100
 ```
 
+## Trend Support
+```bash
+# generate time-series scores
+health --snapshots data/sample_project_timeseries.csv --out health_scored_timeseries.csv
+# launch UI
+pip install -e ".[ui]"
+streamlit run ui/app.py
+```
+
+
+# launch UI
+pip install -e ".[ui]"
+streamlit run ui/app.py
+
 ## Test
 ```bash
 source .venv/bin/activate
